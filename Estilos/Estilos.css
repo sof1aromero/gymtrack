@@ -1,26 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 #body{
 
-    background-color: #d3d1ce;
+    background-color: #ececec;
     
 }
 
 .container1{
-    width: 90%;
-    border: solid #d3d1ce 1px;
+    width: 70%;
+    border: solid #ececec 1px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    margin-bottom: 10px;
 }
 
 .header1{
     height: 40px;
-    background-color: #b3b7ba;
+    background-color: #c9cad1;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    font-family: sans-serif;
     font-size: 180%;
     display: flex;
     justify-content: space-evenly;
@@ -37,7 +40,7 @@
 .division{
     width:100%;
     display: flex;
-    background-color: #b3b7ba;
+    background-color: #c9cad1;
     margin-top: 15px;
     align-items: center;
     justify-content: space-evenly;
@@ -52,11 +55,200 @@
 
 .cuadro2{
     width: 40%;
+    border-radius: 15px;
     height: 300px;
     display: flex;
-    background-color: #6c6d74;
+    background-color: #b5b6bd;
+}
 
+.division2{
+    width:70%;
+    display: flex;
+    background-color: #dddbd6; 
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
 }
 
-/*hola*/
+.divcuadros{
+    width:70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column-reverse;
+}
+
+.divcuad1{
+    padding-left: 10px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    background-color: #c9cad1;
+}
+
+.divcuad2{
+    padding-left: 10px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    background-color: #e8e9ec;
+}
+
+.divcuad3{
+    padding-left: 10px;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    background-color: #c9cad1;
+}
+
+.cuadro4{
+    text-align: center;
+}
+
+.divicuadros{
+    width:70%;
+    background-color: #dddbd6;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cuadros{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.divcu1{
+    width:20%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #c9cad1;
+}
+
+.divcu2{
+    width:20%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #c9cad1;
+}
+
+.divcu3{
+    width:20%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #c9cad1;
+}
+
+.divcu4{
+    width:20%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #c9cad1;
+}
+
+.divicuadros2{
+    width:70%;
+    background-color: #c9cad1;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cuadros2{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.titulo2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.parrafo{
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.divcua1{
+    width:100%;
+    background-color: #dddbd6;
+}
+
+.divcua2{
+    width:20%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #dddbd6;
+}
+
+.divcua3{
+    width:20%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #dddbd6;
+}
+
+.divcua4{
+    width:20%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #dddbd6;
+}
+
+.linea{
+    width: 70%;
+    background-color: #ececec;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
