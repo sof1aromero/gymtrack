@@ -11,7 +11,7 @@
 
 .container1{
     width: 70%;
-    border: solid #ececec 1px;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -250,5 +250,63 @@
     background-color: #ececec;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
 }
+
+.divcuadro{
+    width:70%;
+    height: 350px;
+    background-color: #dddbd6;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "box1 box2 box3 box4"
+        "box1 box5 box3 box6";
+    gap: 10px;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    top: -450px;
+}
+
+.box {
+    background-color: #a2a3aa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 { 
+    grid-area: box1; 
+    height: 360px; 
+}
+.box2 { 
+    grid-area: box2; 
+    height: 150px; 
+    padding-bottom: 200px;
+}
+.box3 {
+    grid-area: box3;
+    height: 360px; 
+}
+.box4 {
+    grid-area: box4;
+    height: 200px; 
+}
+.box5 { 
+    grid-area: box5; 
+    height: 150px; 
+}
+.box6 { 
+    grid-area: box6; 
+    height: 150px; 
+}
+
